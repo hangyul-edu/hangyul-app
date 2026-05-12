@@ -1,7 +1,7 @@
 import {
   useCssElement,
-  useNativeVariable as useFunctionalVariable,
-} from "react-native-css";
+  useUnstableNativeVariable as useFunctionalVariable,
+} from "nativewind";
 
 import { Link as RouterLink } from "expo-router";
 import Animated from "react-native-reanimated";
@@ -76,6 +76,7 @@ ScrollView.displayName = "CSS(ScrollView)";
 export const Pressable = (
   props: React.ComponentProps<typeof RNPressable> & { className?: string },
 ) => {
+  // @ts-ignore: useCssElement union type too complex for TS inference
   return useCssElement(RNPressable, props, { className: "style" });
 };
 Pressable.displayName = "CSS(Pressable)";

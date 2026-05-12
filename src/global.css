@@ -1,6 +1,7 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css";
+@import "nativewind/theme";
 
 @theme inline {
   /* ── Heading ──────────────────────────────────────────────
@@ -104,6 +105,130 @@
 
 @theme {
   /* ── Primary (orange) palette ── */
+  --color-primary-900: #ff6700;
+  --color-primary-800: #ff8700;
+  --color-primary-700: #ff9900;
+  --color-primary-600: #ffac00;
+  --color-primary-500: #ffba00;
+  --color-primary-400: #ffc41f;
+  --color-primary-300: #ffd04a;
+  --color-primary-200: #ffdc7e;
+  --color-primary-100: #ffeab1;
+  --color-primary-50: #fff7e0;
+
+  /* ── Brand ── */
+  --color-brand-teal: #66cccc;
+
+  /* ── Semantic ── */
+  --color-positive: #547cf1;
+  --color-negative: #f24147;
+
+  /* ── Black scale ── */
+  --color-black-900: #000000;
+  --color-black-800: #262c31;
+  --color-black-700: #5a636a;
+  --color-black-600: #778088;
+  --color-black-500: #adb4ba;
+  --color-black-400: #ccd1d7;
+  --color-black-300: #e6e8eb;
+  --color-black-200: #f2f4f5;
+  --color-black-100: #ffffff;
+
+  /* ── Font family ── */
+  --font-sans: "Pretendard";
+}
+
+:root {
+  /* ── Typography ── */
+  --text-h1: 32px;
+  --text-h1--line-height: 1.225;
+  --text-h1--font-weight: 600;
+
+  --text-h2: 32px;
+  --text-h2--line-height: 1.225;
+  --text-h2--font-weight: 300;
+
+  --text-h3: 28px;
+  --text-h3--line-height: 1.4;
+  --text-h3--font-weight: 700;
+
+  --text-h4: 28px;
+  --text-h4--line-height: 1.4;
+  --text-h4--font-weight: 300;
+
+  --text-h5: 24px;
+  --text-h5--line-height: 1.4;
+  --text-h5--font-weight: 600;
+
+  --text-h6: 24px;
+  --text-h6--line-height: 1.4;
+  --text-h6--font-weight: 400;
+
+  --text-h7: 20px;
+  --text-h7--line-height: 1.4;
+  --text-h7--font-weight: 600;
+
+  --text-h8: 18px;
+  --text-h8--line-height: 1.4;
+  --text-h8--font-weight: 600;
+
+  --text-b1: 20px;
+  --text-b1--line-height: 1.4;
+  --text-b1--font-weight: 400;
+
+  --text-b2: 16px;
+  --text-b2--line-height: 1.435;
+  --text-b2--font-weight: 600;
+
+  --text-b3: 16px;
+  --text-b3--line-height: 2.33;
+  --text-b3--font-weight: 400;
+
+  --text-b4: 15px;
+  --text-b4--line-height: 1.487;
+  --text-b4--font-weight: 700;
+
+  --text-b5: 15px;
+  --text-b5--line-height: 1.487;
+  --text-b5--font-weight: 400;
+
+  --text-b6: 15px;
+  --text-b6--line-height: 1.593;
+  --text-b6--font-weight: 500;
+
+  --text-b7: 14px;
+  --text-b7--line-height: 1.536;
+  --text-b7--font-weight: 500;
+
+  --text-b8: 14px;
+  --text-b8--line-height: 1.536;
+  --text-b8--font-weight: 600;
+
+  --text-b9: 14px;
+  --text-b9--line-height: 1.536;
+  --text-b9--font-weight: 400;
+
+  --text-c1: 13px;
+  --text-c1--line-height: 1.446;
+  --text-c1--font-weight: 700;
+
+  --text-c2: 13px;
+  --text-c2--line-height: 1.446;
+  --text-c2--font-weight: 600;
+
+  --text-c3: 13px;
+  --text-c3--line-height: 1.446;
+  --text-c3--font-weight: 400;
+
+  --text-c4: 12px;
+  --text-c4--line-height: 1.375;
+  --text-c4--font-weight: 500;
+
+  --text-c5: 11px;
+  --text-c5--line-height: 1.273;
+  --text-c5--font-weight: 600;
+
+  /* ── Primary palette ── */
   --color-primary-900: #ff6700;
   --color-primary-800: #ff8700;
   --color-primary-700: #ff9900;

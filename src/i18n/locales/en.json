@@ -1,0 +1,233 @@
+{
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back",
+    "start": "Get Started",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "loading": "Loading..."
+  },
+
+  "setLanguage": {
+    "title": "Choose your language to start learning Korean",
+    "cta": "Let's start!",
+    "options": {
+      "korean": "Korean (한국어)",
+      "english": "English (영어)"
+    }
+  },
+
+  "onboardingIntro": {
+    "title": "Welcome!",
+    "subtitle": "We've prepared a few simple questions\nto better understand your learning goals.",
+    "description": "Don't worry, take it easy.\nThis will help us create the perfect study plan for you!",
+    "cta": "Get Started"
+  },
+
+  "onboarding": {
+    "step1": {
+      "question": "What is your purpose for learning Korean?",
+      "options": {
+        "conversation": "Conversation (speaking-focused)",
+        "topik": "TOPIK (exam prep)"
+      }
+    },
+    "step2": {
+      "question": "How would you rate your Korean speaking level?",
+      "options": {
+        "beginner": "Complete beginner",
+        "word": "Words only",
+        "simple": "Simple sentences",
+        "daily": "Daily conversation",
+        "fluent": "Fluent"
+      }
+    },
+    "step3": {
+      "label": "Last question!",
+      "question": "How many sentences would you like to practice per day?",
+      "options": {
+        "five": "5",
+        "ten": "10",
+        "twenty": "20",
+        "thirty": "30",
+        "forty": "40"
+      },
+      "descriptions": {
+        "five": "First step",
+        "ten": "Steady routine",
+        "twenty": "Accelerate growth",
+        "thirty": "Immersion mode",
+        "forty": "Conqueror"
+      },
+      "badge": {
+        "ten": "Recommended"
+      }
+    },
+    "cta": {
+      "next": "Next",
+      "finish": "Start Now"
+    }
+  },
+
+  "login": {
+    "tagline": "One sentence a day, like a small tangerine slice",
+    "cta": "Log In",
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "findEmail": "Find Email",
+    "findPassword": "Find Password",
+    "signup": "Sign Up"
+  },
+
+  "loginEmail": {
+    "tagline": "One sentence a day, like a small tangerine slice",
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter your password"
+    },
+    "autoLogin": "Stay logged in",
+    "cta": "Log In",
+    "findEmail": "Find Email",
+    "findPassword": "Find Password",
+    "signup": "Sign Up"
+  },
+
+  "signup": {
+    "title": "Sign Up",
+    "subtitle": "Get started right now.",
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter your name"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "Enter without dashes",
+      "verify": "Verify",
+      "verified": "Verified successfully."
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "checkDuplicate": "Check"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "At least 8 characters with letters, numbers, and symbols"
+    },
+    "passwordConfirm": {
+      "label": "Confirm Password",
+      "placeholder": "Re-enter your password"
+    },
+    "agreements": {
+      "title": "Terms & Conditions",
+      "agreeAll": "Agree to all",
+      "terms": "Terms of Service",
+      "termsSuffix": " (Required)",
+      "privacy": "Privacy Policy (Required)",
+      "thirdParty": "Third-party data sharing (Required)",
+      "marketing": "Marketing emails & SMS (Optional)",
+      "notification": "Service notifications (Optional)",
+      "ads": "Promotional notifications (Optional)"
+    },
+    "cta": "Sign Up"
+  },
+
+  "tabs": {
+    "home": "Home",
+    "sentence": "Sentence",
+    "course": "Course",
+    "ranking": "Ranking",
+    "more": "More"
+  },
+
+  "more": {
+    "title": "More",
+    "profile": {
+      "editProfile": "Edit Profile",
+      "level": "Level",
+      "bestStreak": "Best Streak",
+      "currentStreak": "Current Streak"
+    },
+    "menu": {
+      "savedContent": "Saved Content",
+      "accountManagement": "Account",
+      "language": "Language Settings",
+      "announcements": "Announcements",
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "notificationSettings": "Notification Settings",
+      "friendReferral": "Refer a Friend",
+      "termsAndPolicy": "Terms & Policy",
+      "logout": "Log Out"
+    },
+    "deleteAccount": "Delete Account"
+  },
+
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications.",
+    "settings": "Notification Settings"
+  },
+
+  "notificationSettings": {
+    "title": "Notification Settings",
+    "serviceAlert": "Service Notifications",
+    "adAlert": "Promotional Notifications",
+    "push": "Push Notifications",
+    "marketing": "Marketing Notifications",
+    "sound": "Notification Sound"
+  },
+
+  "announcements": {
+    "title": "Announcements",
+    "empty": "No announcements."
+  },
+
+  "savedContent": {
+    "title": "Saved Content",
+    "empty": "No saved content."
+  },
+
+  "subscription": {
+    "title": "Subscription",
+    "current": "Current Plan",
+    "upgrade": "Upgrade",
+    "free": "Free",
+    "premium": "Premium",
+    "myInfo": "My Subscription",
+    "plan": "Current Plan",
+    "nextBillingDate": "Next Billing Date",
+    "cancelNote": "To cancel, go to your app store.",
+    "paymentInfo": "Payment History",
+    "date": "Date",
+    "descPeriod": "Description / Period",
+    "amount": "Amount"
+  },
+
+  "languageSettings": {
+    "title": "Language Settings",
+    "select": "Select Learning Language"
+  },
+
+  "ranking": {
+    "title": "Ranking",
+    "myRank": "My Rank",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "allTime": "All Time",
+    "leagueTab": "Level League",
+    "friendTab": "Friend League",
+    "manageFriends": "Manage Friends",
+    "columnRank": "Rank",
+    "columnUser": "User",
+    "columnPoints": "Points"
+  }
+}

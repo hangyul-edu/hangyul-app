@@ -1,0 +1,233 @@
+{
+  "common": {
+    "confirm": "확인",
+    "cancel": "취소",
+    "next": "다음",
+    "back": "뒤로",
+    "start": "시작하기",
+    "save": "저장",
+    "edit": "수정",
+    "delete": "삭제",
+    "close": "닫기",
+    "loading": "로딩 중..."
+  },
+
+  "setLanguage": {
+    "title": "어떤 언어로 시작할까요?",
+    "cta": "지금 시작하기",
+    "options": {
+      "korean": "한국어 (Korean)",
+      "english": "영어 (English)"
+    }
+  },
+
+  "onboardingIntro": {
+    "title": "환영합니다!",
+    "subtitle": "여러분의 학습 목표를 더 잘 이해하기 위해\n간단한 질문 몇 가지를 준비했어요.",
+    "description": "부담 갖지 마시고 편하게 답해 주세요.\n여러분께 딱 맞는 학습 계획을 세우는 데 큰 도움이 될 거에요!",
+    "cta": "지금 시작하기"
+  },
+
+  "onboarding": {
+    "step1": {
+      "question": "한국어를 어떤 목적으로 배우고 싶으신가요?",
+      "options": {
+        "conversation": "회화 (말하기 중심)",
+        "topik": "TOPIK (시험 대비)"
+      }
+    },
+    "step2": {
+      "question": "한국어 말하기 수준은 어느 정도인가요?",
+      "options": {
+        "beginner": "처음이에요",
+        "word": "단어만",
+        "simple": "간단한 문장",
+        "daily": "일상 대화",
+        "fluent": "유창"
+      }
+    },
+    "step3": {
+      "label": "마지막 질문이에요!",
+      "question": "하루에 몇 문장씩 연습할까요?",
+      "options": {
+        "five": "5개",
+        "ten": "10개",
+        "twenty": "20개",
+        "thirty": "30개",
+        "forty": "40개"
+      },
+      "descriptions": {
+        "five": "첫 걸음",
+        "ten": "꾸준 루틴",
+        "twenty": "성장 가속",
+        "thirty": "몰입 모드",
+        "forty": "정복자"
+      },
+      "badge": {
+        "ten": "추천"
+      }
+    },
+    "cta": {
+      "next": "다음",
+      "finish": "바로 시작하기"
+    }
+  },
+
+  "login": {
+    "tagline": "작은 귤 한 조각처럼, 매일 한 문장씩",
+    "cta": "로그인",
+    "google": "Google로 계속하기",
+    "apple": "Apple로 계속하기",
+    "findEmail": "이메일 찾기",
+    "findPassword": "비밀번호 찾기",
+    "signup": "회원가입"
+  },
+
+  "loginEmail": {
+    "tagline": "작은 귤 한 조각처럼, 매일 한 문장씩",
+    "email": {
+      "label": "이메일",
+      "placeholder": "이메일을 입력해주세요"
+    },
+    "password": {
+      "label": "비밀번호",
+      "placeholder": "비밀번호를 입력해주세요"
+    },
+    "autoLogin": "자동로그인",
+    "cta": "로그인",
+    "findEmail": "이메일 찾기",
+    "findPassword": "비밀번호 찾기",
+    "signup": "회원가입"
+  },
+
+  "signup": {
+    "title": "회원가입",
+    "subtitle": "지금 바로 시작해보세요.",
+    "name": {
+      "label": "이름",
+      "placeholder": "이름을 입력하세요"
+    },
+    "phone": {
+      "label": "휴대폰번호",
+      "placeholder": "'-'를 제외하고 입력하세요",
+      "verify": "인증하기",
+      "verified": "인증되었습니다."
+    },
+    "email": {
+      "label": "이메일",
+      "placeholder": "이메일을 입력하세요",
+      "checkDuplicate": "중복확인"
+    },
+    "password": {
+      "label": "비밀번호",
+      "placeholder": "영어, 숫자, 특수문자 포함 8자 이상을 입력하세요"
+    },
+    "passwordConfirm": {
+      "label": "비밀번호 확인",
+      "placeholder": "비밀번호를 다시 입력하세요"
+    },
+    "agreements": {
+      "title": "약관동의",
+      "agreeAll": "전체 동의",
+      "terms": "서비스 이용약관",
+      "termsSuffix": " (필수)",
+      "privacy": "개인정보 수집 및 이용 동의 (필수)",
+      "thirdParty": "개인정보 제 3자 제공 동의 (필수)",
+      "marketing": "이메일 및 SMS 마케팅 정보 수신 동의 (선택)",
+      "notification": "서비스 알림 수신 동의 (선택)",
+      "ads": "광고성 알림 수신 동의 (선택)"
+    },
+    "cta": "회원가입"
+  },
+
+  "tabs": {
+    "home": "홈",
+    "sentence": "문장 학습",
+    "course": "코스",
+    "ranking": "랭킹",
+    "more": "더보기"
+  },
+
+  "more": {
+    "title": "더보기",
+    "profile": {
+      "editProfile": "프로필 편집",
+      "level": "학습 레벨",
+      "bestStreak": "최고 연속일",
+      "currentStreak": "현재 연속 출석일"
+    },
+    "menu": {
+      "savedContent": "저장한 콘텐츠",
+      "accountManagement": "계정 관리",
+      "language": "언어 설정",
+      "announcements": "공지사항",
+      "faq": "FAQ",
+      "contact": "1:1 문의하기",
+      "notificationSettings": "알림 설정",
+      "friendReferral": "친구 추천 설정",
+      "termsAndPolicy": "약관 및 정책",
+      "logout": "로그아웃"
+    },
+    "deleteAccount": "탈퇴하기"
+  },
+
+  "notifications": {
+    "title": "알림",
+    "empty": "알림이 없습니다.",
+    "settings": "알림 설정"
+  },
+
+  "notificationSettings": {
+    "title": "알림 설정",
+    "serviceAlert": "서비스 알림",
+    "adAlert": "광고성 알림",
+    "push": "푸시 알림",
+    "marketing": "마케팅 알림",
+    "sound": "알림 소리"
+  },
+
+  "announcements": {
+    "title": "공지사항",
+    "empty": "공지사항이 없습니다."
+  },
+
+  "savedContent": {
+    "title": "저장된 콘텐츠",
+    "empty": "저장된 콘텐츠가 없습니다."
+  },
+
+  "subscription": {
+    "title": "구독 관리",
+    "current": "현재 플랜",
+    "upgrade": "업그레이드",
+    "free": "무료",
+    "premium": "프리미엄",
+    "myInfo": "내 구독정보",
+    "plan": "이용 구독 플랜",
+    "nextBillingDate": "다음 결제일",
+    "cancelNote": "구독 해지는 스토어에서 가능해요.",
+    "paymentInfo": "결제 정보",
+    "date": "날짜",
+    "descPeriod": "설명/기간",
+    "amount": "결제 금액"
+  },
+
+  "languageSettings": {
+    "title": "언어 설정",
+    "select": "학습 언어 선택"
+  },
+
+  "ranking": {
+    "title": "랭킹",
+    "myRank": "내 순위",
+    "weekly": "주간",
+    "monthly": "월간",
+    "allTime": "전체",
+    "leagueTab": "수준별 리그",
+    "friendTab": "친구 리그",
+    "manageFriends": "친구 관리",
+    "columnRank": "랭킹",
+    "columnUser": "유저",
+    "columnPoints": "획득 포인트"
+  }
+}
