@@ -153,3 +153,5 @@ android/
 
 # Claude Code
 .claude/
+
+.DS_store

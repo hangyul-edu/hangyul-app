@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hangyul-app",
+    "name": "Hangyul",
     "slug": "hangyul-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,6 +8,11 @@
     "scheme": "hangyul",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF1E1"
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.hangyul.app"
@@ -37,7 +42,8 @@
             "./assets/fonts/Pretendard-Bold.otf"
           ]
         }
-      ]
+      ],
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true
