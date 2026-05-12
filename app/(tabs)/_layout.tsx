@@ -1,4 +1,5 @@
 import { Tabs } from "expo-router";
+import { useTranslation } from "react-i18next";
 import { colors } from "@/src/constants/colors";
 import { typography } from "@/src/constants/typography";
 import HomeIcon from "@/assets/icons/home.svg";
@@ -8,6 +9,7 @@ import AwardIcon from "@/assets/icons/award.svg";
 import MoreIcon from "@/assets/icons/more.svg";
 
 export default function TabLayout() {
+  const { t } = useTranslation();
   return (
     <Tabs
       screenOptions={{
@@ -33,7 +35,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "홈",
+          title: t("tabs.home"),
           tabBarIcon: ({ color, size }) => (
             <HomeIcon width={size} height={size} color={color} />
           ),
@@ -42,7 +44,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="course"
         options={{
-          title: "코스",
+          title: t("tabs.course"),
           tabBarIcon: ({ color, size }) => (
             <ContentsIcon width={size} height={size} color={color} />
           ),
@@ -51,7 +53,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="sentence"
         options={{
-          title: "문장 학습",
+          title: t("tabs.sentence"),
           tabBarIcon: ({ color, size }) => (
             <FlagIcon width={size} height={size} color={color} />
           ),
@@ -60,7 +62,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="ranking"
         options={{
-          title: "랭킹",
+          title: t("tabs.ranking"),
           tabBarIcon: ({ color, size }) => (
             <AwardIcon width={size} height={size} color={color} />
           ),
@@ -69,7 +71,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="more"
         options={{
-          title: "더보기",
+          title: t("tabs.more"),
           tabBarIcon: ({ color, size }) => (
             <MoreIcon width={size} height={size} color={color} />
           ),
